@@ -1,0 +1,95 @@
+create table nivelescolar(
+ estado varchar(50) not null,
+ año int not null,
+ total int not null,
+ tipo varchar(30),
+ porcentaje double precision not null);
+
+insert into nivelescolar(Estado,Año,Total,Tipo,Porcentaje)values
+
+('Estados Unidos Mexicanos',2000,100,'Sabe leer y escribir',87.3),('Estados Unidos Mexicanos',2005,100,'Sabe leer y escribir',87.8),('Estados Unidos Mexicanos',2010,100,'Sabe leer y escribir',86.6),('Estados Unidos Mexicanos',2015,100,'Sabe leer y escribir',87.5),
+('Estados Unidos Mexicanos',2000,100,'No sabe leer y escribir',12.3),('Estados Unidos Mexicanos',2005,100,'No sabe leer y escribir',11.8),('Estados Unidos Mexicanos',2010,100,'No sabe leer y escribir',11.2),('Estados Unidos Mexicanos',2015,100,'No sabe leer y escribir',8.3),
+
+('Aguascalientes',2000,100,'Sabe leer y escribir',92.5),('Aguascalientes',2005,100,'Sabe leer y escribir',91.7),('Aguascalientes',2010,100,'Sabe leer y escribir',90.4),('Aguascalientes',2015,100,'Sabe leer y escribir',91.5),
+('Aguascalientes',2000,100,'No sabe leer y escribir',7.2),('Aguascalientes',2005,100,'No sabe leer y escribir',8.0),('Aguascalientes',2010,100,'No sabe leer y escribir',8.0),('Aguascalientes',2015,100,'No sabe leer y escribir',5.7),
+
+
+('Baja California',2000,100,'Sabe leer y escribir',89.2),('Baja California',2005,100,'Sabe leer y escribir',88.0),('Baja California',2010,100,'Sabe leer y escribir',87.6),('Baja California',2015,100,'Sabe leer y escribir',89.5),
+('Baja California',2000,100,'No sabe leer y escribir',10.1),('Baja California',2005,100,'No sabe leer y escribir',11.2),('Baja California',2010,100,'No sabe leer y escribir',9.4),('Baja California',2015,100,'No sabe leer y escribir',8.0),
+
+('Baja California Sur',2000,100,'Sabe leer y escribir',89.2),('Baja California Sur',2005,100,'Sabe leer y escribir',88.0),('Baja California Sur',2010,100,'Sabe leer y escribir',87.6),('Baja California Sur',2015,100,'Sabe leer y escribir',89.5),
+('Baja California Sur',2000,100,'No sabe leer y escribir',10.1),('Baja California Sur',2005,100,'No sabe leer y escribir',11.2),('Baja California Sur',2010,100,'No sabe leer y escribir',9.4),('Baja California Sur',2015,100,'No sabe leer y escribir',8.0),
+
+('Campeche',2000,100,'Sabe leer y escribir',84.1),('Campeche',2005,100,'Sabe leer y escribir',84.7),('Campeche',2010,100,'Sabe leer y escribir',85.3),('Campeche',2015,100,'Sabe leer y escribir',88.7),
+('Campeche',2000,100,'No sabe leer y escribir',15.5),('Campeche',2005,100,'No sabe leer y escribir',14.8),('Campeche',2010,100,'No sabe leer y escribir',13.0),('Campeche',2015,100,'No sabe leer y escribir',8.0),
+
+
+('Coahuila de Zaragoza',2000,100,'Sabe leer y escribir',91.0),('Coahuila de Zaragoza',2005,100,'Sabe leer y escribir',90.6),('Coahuila de Zaragoza',2010,100,'Sabe leer y escribir',89.7),('Coahuila de Zaragoza',2015,100,'Sabe leer y escribir',88.5),
+('Coahuila de Zaragoza',2000,100,'No sabe leer y escribir',8.5),('Coahuila de Zaragoza',2005,100,'No sabe leer y escribir',9.1),('Coahuila de Zaragoza',2010,100,'No sabe leer y escribir',7.7),('Coahuila de Zaragoza',2015,100,'No sabe leer y escribir',6.2),
+
+('Colima',2000,100,'Sabe leer y escribir',87.7),('Colima',2005,100,'Sabe leer y escribir',89.3),('Colima',2010,100,'Sabe leer y escribir',86.3),('Colima',2015,100,'Sabe leer y escribir',88.3),
+('Colima',2000,100,'No sabe leer y escribir',12.3),('Colima',2005,100,'No sabe leer y escribir',10.5),('Colima',2010,100,'No sabe leer y escribir',11.5),('Colima',2015,100,'No sabe leer y escribir',8.4),
+
+('Chiapas',2000,100,'Sabe leer y escribir',77.3),('Chiapas',2005,100,'Sabe leer y escribir',79.0),('Chiapas',2010,100,'Sabe leer y escribir',77.3),('Chiapas',2015,100,'Sabe leer y escribir',81.0),
+('Chiapas',2000,100,'No sabe leer y escribir',22.3),('Chiapas',2005,100,'No sabe leer y escribir',20.7),('Chiapas',2010,100,'No sabe leer y escribir',21.7),('Chiapas',2015,100,'No sabe leer y escribir',16.5),
+
+('Chihuahua',2000,100,'Sabe leer y escribir',90.6),('Chihuahua',2005,100,'Sabe leer y escribir',89.8),('Chihuahua',2010,100,'Sabe leer y escribir',88.2),('Chihuahua',2015,100,'Sabe leer y escribir',86.4),
+('Chihuahua',2000,100,'No sabe leer y escribir',9.0),('Chihuahua',2005,100,'No sabe leer y escribir',9.6),('Chihuahua',2010,100,'No sabe leer y escribir',9.6),('Chihuahua',2015,100,'No sabe leer y escribir',7.7),
+
+('Ciudad de México',2000,100,'Sabe leer y escribir',92.2),('Ciudad de México',2005,100,'Sabe leer y escribir',92.2),('Ciudad de México',2010,100,'Sabe leer y escribir',89.3),('Ciudad de México',2015,100,'Sabe leer y escribir',86.9),
+('Ciudad de México',2000,100,'No sabe leer y escribir',6.7),('Ciudad de México',2005,100,'No sabe leer y escribir',7.2),('Ciudad de México',2010,100,'No sabe leer y escribir',7.1),('Ciudad de México',2015,100,'No sabe leer y escribir',5.5),
+
+('Durango',2000,100,'Sabe leer y escribir',88.7),('Durango',2005,100,'Sabe leer y escribir',88.7),('Durango',2010,100,'Sabe leer y escribir',88.2),('Durango',2015,100,'Sabe leer y escribir',89.3),
+('Durango',2000,100,'No sabe leer y escribir',11.0),('Durango',2005,100,'No sabe leer y escribir',11.0),('Durango',2010,100,'No sabe leer y escribir',9.8),('Durango',2015,100,'No sabe leer y escribir',7.7),
+
+('Guanajuato',2000,100,'Sabe leer y escribir',85.8),('Guanajuato',2005,100,'Sabe leer y escribir',86.2),('Guanajuato',2010,100,'Sabe leer y escribir',87.3),('Guanajuato',2015,100,'Sabe leer y escribir',88.8),
+('Guanajuato',2000,100,'No sabe leer y escribir',13.8),('Guanajuato',2005,100,'No sabe leer y escribir',13.5),('Guanajuato',2010,100,'No sabe leer y escribir',11.3),('Guanajuato',2015,100,'No sabe leer y escribir',8.3),
+
+('Guerrero',2000,100,'Sabe leer y escribir',78.1),('Guerrero',2005,100,'Sabe leer y escribir',80.7),('Guerrero',2010,100,'Sabe leer y escribir',79.4),('Guerrero',2015,100,'Sabe leer y escribir',83.9),
+('Guerrero',2000,100,'No sabe leer y escribir',21.4),('Guerrero',2005,100,'No sabe leer y escribir',18.9),('Guerrero',2010,100,'No sabe leer y escribir',19.3),('Guerrero',2015,100,'No sabe leer y escribir',13.6),
+
+('Hidalgo',2000,100,'Sabe leer y escribir',88.4),('Hidalgo',2005,100,'Sabe leer y escribir',89.7),('Hidalgo',2010,100,'Sabe leer y escribir',87.4),('Hidalgo',2015,100,'Sabe leer y escribir',89.2),
+('Hidalgo',2000,100,'No sabe leer y escribir',11.3),('Hidalgo',2005,100,'No sabe leer y escribir',9.9),('Hidalgo',2010,100,'No sabe leer y escribir',11.1),('Hidalgo',2015,100,'No sabe leer y escribir',7.1),
+('Jalisco',2000,100,'Sabe leer y escribir',89.7),('Jalisco',2005,100,'Sabe leer y escribir',88.1),('Jalisco',2010,100,'Sabe leer y escribir',88.4),('Jalisco',2015,100,'Sabe leer y escribir',88.2),
+('Jalisco',2000,100,'No sabe leer y escribir',10.1),('Jalisco',2005,100,'No sabe leer y escribir',11.4),('Jalisco',2010,100,'No sabe leer y escribir',9.4),('Jalisco',2015,100,'No sabe leer y escribir',7.6),
+('México',2000,100,'Sabe leer y escribir',92.6),('México',2005,100,'Sabe leer y escribir',92.3),('México',2010,100,'Sabe leer y escribir',89.4),('México',2015,100,'Sabe leer y escribir',88.3),
+('México',2000,100,'No sabe leer y escribir',7.1),('México',2005,100,'No sabe leer y escribir',7.2),('México',2010,100,'No sabe leer y escribir',8.1),('México',2015,100,'No sabe leer y escribir',5.8),
+
+('Michoacán de Ocampo',2000,100,'Sabe leer y escribir',85.2),('Michoacán de Ocampo',2005,100,'Sabe leer y escribir',89.6),('Michoacán de Ocampo',2010,100,'Sabe leer y escribir',85.5),('Michoacán de Ocampo',2015,100,'Sabe leer y escribir',86.9),
+('Michoacán de Ocampo',2000,100,'No sabe leer y escribir',14.4),('Michoacán de Ocampo',2005,100,'No sabe leer y escribir',12.8),('Michoacán de Ocampo',2010,100,'No sabe leer y escribir',12.9),('Michoacán de Ocampo',2015,100,'No sabe leer y escribir',10.2),
+('Morelos',2000,100,'Sabe leer y escribir',87.6),('Morelos',2005,100,'Sabe leer y escribir',88.9),('Morelos',2010,100,'Sabe leer y escribir',88.1),('Morelos',2015,100,'Sabe leer y escribir',88.2),
+('Morelos',2000,100,'No sabe leer y escribir',11.7),('Morelos',2005,100,'No sabe leer y escribir',10.7),('Morelos',2010,100,'No sabe leer y escribir',9.9),('Morelos',2015,100,'No sabe leer y escribir',7.3),
+('Nayarit',2000,100,'Sabe leer y escribir',88.6),('Nayarit',2005,100,'Sabe leer y escribir',87.9),('Nayarit',2010,100,'Sabe leer y escribir',88.1),('Nayarit',2015,100,'Sabe leer y escribir',88.6),
+('Nayarit',2000,100,'No sabe leer y escribir',10.7),('Nayarit',2005,100,'No sabe leer y escribir',11.7),('Nayarit',2010,100,'No sabe leer y escribir',11.1),('Nayarit',2015,100,'No sabe leer y escribir',8.8),
+('Nuevo León',2000,100,'Sabe leer y escribir',92.6),('Nuevo León',2005,100,'Sabe leer y escribir',90.9),('Nuevo León',2010,100,'Sabe leer y escribir',88.1),('Nuevo León',2015,100,'Sabe leer y escribir',86.6),
+('Nuevo León',2000,100,'No sabe leer y escribir',6.7),('Nuevo León',2005,100,'No sabe leer y escribir',9.7),('Nuevo León',2010,100,'No sabe leer y escribir',7.1),('Nuevo León',2015,100,'No sabe leer y escribir',6.8),
+
+('Oaxaca',2000,100,'Sabe leer y escribir',81.6),('Oaxaca',2005,100,'Sabe leer y escribir',83.9),('Oaxaca',2010,100,'Sabe leer y escribir',82.1),('Oaxaca',2015,100,'Sabe leer y escribir',84.6),
+('Oaxaca',2000,100,'No sabe leer y escribir',18.7),('Oaxaca',2005,100,'No sabe leer y escribir',16.7),('Oaxaca',2010,100,'No sabe leer y escribir',16.1),('Oaxaca',2015,100,'No sabe leer y escribir',11.8),
+('Puebla',2000,100,'Sabe leer y escribir',85.6),('Puebla',2005,100,'Sabe leer y escribir',86.9),('Puebla',2010,100,'Sabe leer y escribir',84.1),('Puebla',2015,100,'Sabe leer y escribir',88.6),
+('Puebla',2000,100,'No sabe leer y escribir',14.7),('Puebla',2005,100,'No sabe leer y escribir',13.7),('Puebla',2010,100,'No sabe leer y escribir',13.1),('Puebla',2015,100,'No sabe leer y escribir',8.8),
+
+('Querétaro',2000,100,'Sabe leer y escribir',87.6),('Querétaro',2005,100,'Sabe leer y escribir',87.9),('Querétaro',2010,100,'Sabe leer y escribir',88.1),('Querétaro',2015,100,'Sabe leer y escribir',88.6),
+('Querétaro',2000,100,'No sabe leer y escribir',12.7),('Querétaro',2005,100,'No sabe leer y escribir',11.7),('Querétaro',2010,100,'No sabe leer y escribir',9.1),('Querétaro',2015,100,'No sabe leer y escribir',6.8),
+('Quintana Roo',2000,100,'Sabe leer y escribir',86.6),('Quintana Roo',2005,100,'Sabe leer y escribir',88.9),('Quintana Roo',2010,100,'Sabe leer y escribir',85.1),('Quintana Roo',2015,100,'Sabe leer y escribir',86.6),
+('Quintana Roo',2000,100,'No sabe leer y escribir',13.7),('Quintana Roo',2005,100,'No sabe leer y escribir',11.7),('Quintana Roo',2010,100,'No sabe leer y escribir',10.1),('Quintana Roo',2015,100,'No sabe leer y escribir',9.8),
+
+('San Luis Potosí',2000,100,'Sabe leer y escribir',85.6),('San Luis Potosí',2005,100,'Sabe leer y escribir',87.9),('San Luis Potosí',2010,100,'Sabe leer y escribir',87.1),('San Luis Potosí',2015,100,'Sabe leer y escribir',89.6),
+('San Luis Potosí',2000,100,'No sabe leer y escribir',14.7),('San Luis Potosí',2005,100,'No sabe leer y escribir',12.7),('San Luis Potosí',2010,100,'No sabe leer y escribir',10.1),('San Luis Potosí',2015,100,'No sabe leer y escribir',7.8),
+('Sinaloa',2000,100,'Sabe leer y escribir',88.6),('Sinaloa',2005,100,'Sabe leer y escribir',90.9),('Sinaloa',2010,100,'Sabe leer y escribir',89.1),('Sinaloa',2015,100,'Sabe leer y escribir',89.6),
+('Sinaloa',2000,100,'No sabe leer y escribir',11.7),('Sinaloa',2005,100,'No sabe leer y escribir',9.7),('Sinaloa',2010,100,'No sabe leer y escribir',7.1),('Sinaloa',2015,100,'No sabe leer y escribir',6.8),
+('Sonora',2000,100,'Sabe leer y escribir',87.6),('Sonora',2005,100,'Sabe leer y escribir',87.9),('Sonora',2010,100,'Sabe leer y escribir',88.1),('Sonora',2015,100,'Sabe leer y escribir',86.6),
+('Sonora',2000,100,'No sabe leer y escribir',12.7),('Sonora',2005,100,'No sabe leer y escribir',12.7),('Sonora',2010,100,'No sabe leer y escribir',9.1),('Sonora',2015,100,'No sabe leer y escribir',8.8),
+('Tabasco',2000,100,'Sabe leer y escribir',84.6),('Tabasco',2005,100,'Sabe leer y escribir',86.9),('Tabasco',2010,100,'Sabe leer y escribir',85.1),('Tabasco',2015,100,'Sabe leer y escribir',86.6),
+('Tabasco',2000,100,'No sabe leer y escribir',14.7),('Tabasco',2005,100,'No sabe leer y escribir',13.7),('Tabasco',2010,100,'No sabe leer y escribir',12.1),('Tabasco',2015,100,'No sabe leer y escribir',9.8),
+('Tamaulipas',2000,100,'Sabe leer y escribir',89.6),('Tamaulipas',2005,100,'Sabe leer y escribir',90.9),('Tamaulipas',2010,100,'Sabe leer y escribir',88.1),('Tamaulipas',2015,100,'Sabe leer y escribir',87.6),
+('Tamaulipas',2000,100,'No sabe leer y escribir',10.7),('Tamaulipas',2005,100,'No sabe leer y escribir',9.7),('Tamaulipas',2010,100,'No sabe leer y escribir',8.1),('Tamaulipas',2015,100,'No sabe leer y escribir',7.8),
+('Tlaxcala',2000,100,'Sabe leer y escribir',88.6),('Tlaxcala',2005,100,'Sabe leer y escribir',90.9),('Tlaxcala',2010,100,'Sabe leer y escribir',88.1),('Tlaxcala',2015,100,'Sabe leer y escribir',89.6),
+('Tlaxcala',2000,100,'No sabe leer y escribir',10.7),('Tlaxcala',2005,100,'No sabe leer y escribir',9.7),('Tlaxcala',2010,100,'No sabe leer y escribir',8.1),('Tlaxcala',2015,100,'No sabe leer y escribir',7.8),
+('Veracruz de Ignacio de la Llave',2000,100,'Sabe leer y escribir',82.6),('Veracruz de Ignacio de la Llave',2005,100,'Sabe leer y escribir',84.9),('Veracruz de Ignacio de la Llave',2010,100,'Sabe leer y escribir',84.1),('Veracruz de Ignacio de la Llave',2015,100,'Sabe leer y escribir',87.6),
+('Veracruz de Ignacio de la Llave',2000,100,'No sabe leer y escribir',17.7),('Veracruz de Ignacio de la Llave',2005,100,'No sabe leer y escribir',15.7),('Veracruz de Ignacio de la Llave',2010,100,'No sabe leer y escribir',14.1),('Veracruz de Ignacio de la Llave',2015,100,'No sabe leer y escribir',10.8),
+
+('Yucatán',2000,100,'Sabe leer y escribir',86.6),('Yucatán',2005,100,'Sabe leer y escribir',86.9),('Yucatán',2010,100,'Sabe leer y escribir',85.1),('Yucatán',2015,100,'Sabe leer y escribir',88.6),
+('Yucatán',2000,100,'No sabe leer y escribir',13.7),('Yucatán',2005,100,'No sabe leer y escribir',13.7),('Yucatán',2010,100,'No sabe leer y escribir',12.1),('Yucatán',2015,100,'No sabe leer y escribir',8.8),
+('Zacatecas',2000,100,'Sabe leer y escribir',88.6),('Zacatecas',2005,100,'Sabe leer y escribir',87.9),('Zacatecas',2010,100,'Sabe leer y escribir',89.1),('Zacatecas',2015,100,'Sabe leer y escribir',89.6),
+('Zacatecas',2000,100,'No sabe leer y escribir',11.7),('Zacatecas',2005,100,'No sabe leer y escribir',12.7),('Zacatecas',2010,100,'No sabe leer y escribir',9.1),('Zacatecas',2015,100,'No sabe leer y escribir',7.8);

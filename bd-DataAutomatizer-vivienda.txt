@@ -1,0 +1,198 @@
+create table vivienda(
+ estado varchar(50) not null,
+ año int not null,
+ viviendaHabitada int not null,
+ habitantes double not null);
+
+insert into vivienda(Estado,Año,viviendaHabitada,habitantes) values
+
+('Estados Unidos Mexicanos',1995,19403409,4.7),
+('Estados Unidos Mexicanos',2000,21942535,4.4),
+('Estados Unidos Mexicanos',2005,24706956,4.2),
+('Estados Unidos Mexicanos',2010,28607568,3.9),
+
+('Aguascalientes',1995,172782,5.0),
+('Aguascalientes',2000,200529,4.7),
+('Aguascalientes',2005,245625,4.3),
+('Aguascalientes',2010,290777,4.1),
+
+
+('Baja California',1995,505174,4.2),
+('Baja California',2000,609667,4.1),
+('Baja California',2005,738338,3.8),
+('Baja California',2010,870310,3.6),
+
+
+('Baja California Sur',1995,88415,4.2),
+('Baja California Sur',2000,105064,4.1),
+('Baja California Sur',2005,135912,3.7),
+('Baja California Sur',2010,178079,3.6),
+
+
+('Campeche',1995,88415,4.7),
+('Campeche',2000,105064,4.4),
+('Campeche',2005,135912,4.1),
+('Campeche',2010,178079,3.9),
+
+
+('Coahuila de Zaragoza',1995,487209,4.4),
+('Coahuila de Zaragoza',2000,544322,4.2),
+('Coahuila de Zaragoza',2005,625231,4.1),
+('Coahuila de Zaragoza',2010,727458,3.8),
+
+
+
+('Colima',1995,487209,4.4),
+('Colima',2000,544322,4.1),
+('Colima',2005,625231,3.8),
+('Colima',2010,727458,3.6),
+
+
+('Chiapas',1995,110481,5.2),
+('Chiapas',2000,132201,4.9),
+('Chiapas',2005,149189,4.7),
+('Chiapas',2010,180378,4.4),
+
+
+('Chihuahua',1995,693161,4.2),
+('Chihuahua',2000,806131,4.1),
+('Chihuahua',2005,916302,3.8),
+('Chihuahua',2010,1090914,3.6),
+
+
+('Ciudad de México',1995,2010799,4.2),
+('Ciudad de México',2000,2131410,4.1),
+('Ciudad de México',2005,2287189,3.8),
+('Ciudad de México',2010,2453031,3.6),
+
+
+('Durango',1995,300013,4.8),
+('Durango',2000,325124,4.4),
+('Durango',2005,358302,4.2),
+('Durango',2010,407681,4.1),
+
+
+('Guanajuato',1995,833084,5.3),
+('Guanajuato',2000,925865,5.1),
+('Guanajuato',2005,1048543,4.7),
+('Guanajuato',2010,1276584,4.3),
+
+
+('Guerrero',1995,428324,4.9),
+('Guerrero',2000,494183,4.7),
+('Guerrero',2005,558448,4.4),
+('Guerrero',2010,669408,4.2),
+
+('Hidalgo',1995,1240054,4.9),
+('Hidalgo',2000,1392775,4.5),
+('Hidalgo',2005,1582089,4.2),
+('Hidalgo',2010,1830334,4.1),
+
+
+('Jalisco',1995,2443410,4.8),
+('Jalisco',2000,2892815,4.5),
+('Jalisco',2005,3243566,4.2),
+('Jalisco',2010,3749106,4.1),
+
+('México',1995,781143,4.8),
+('México',2000,854788,4.5),
+('México',2005,913390,4.3),
+('México',2010,1082384,4.1),
+
+
+('Michoacán de Ocampo',1995,321508,4.9),
+('Michoacán de Ocampo',2000,367230,4.6),
+('Michoacán de Ocampo',2005,403054,4.3),
+('Michoacán de Ocampo',2010,468930,4.1),
+
+('Morelos',1995,791725,4.5),
+('Morelos',2000,888087,4.2),
+('Morelos',2005,1014042,4.1),
+('Morelos',2010,1210598,3.8),
+
+
+('Nayarit',1995,652429,4.5),
+('Nayarit',2000,740551,4.1),
+('Nayarit',2005,802854,3.9),
+('Nayarit',2010,941536,3.7),
+
+
+('Nuevo León',1995,251017,4.5),
+('Nuevo León',2000,298175,4.3),
+('Nuevo León',2005,359953,4.1),
+('Nuevo León',2010,454224,3.9),
+
+
+('Oaxaca',1995,163742,4.5),
+('Oaxaca',2000,213327,4.3),
+('Oaxaca',2005,285742,4.1),
+('Oaxaca',2010,369235,3.9),
+
+
+('Puebla',1995,442241,4.9),
+('Puebla',2000,492650,4.6),
+('Puebla',2005,557534,4.4),
+('Puebla',2010,639089,4.1),
+
+
+('Querétaro',1995,509999,5.1),
+('Querétaro',2000,574931,4.8),
+('Querétaro',2005,642114,4.4),
+('Querétaro',2010,713142,4.1),
+
+
+('Quintana Roo',1995,474638,4.3),
+('Quintana Roo',2000,529937,4.1),
+('Quintana Roo',2005,614595,4.1),
+('Quintana Roo',2010,712108,3.6),
+
+
+('San Luis Potosí',1995,355421,5.2),
+('San Luis Potosí',2000,412452,4.7),
+('San Luis Potosí',2005,473121,4.3),
+('San Luis Potosí',2010,567175,4.1),
+
+('Sinaloa',1995,509999,4.7),
+('Sinaloa',2000,574931,4.4),
+('Sinaloa',2005,642114,4.1),
+('Sinaloa',2010,713142,3.9),
+
+
+('Sonora',1995,474638,4.4),
+('Sonora',2000,529937,4.1),
+('Sonora',2005,614595,4.1),
+('Sonora',2010,712108,3.7),
+
+
+('Tabasco',1995,355421,4.9),
+('Tabasco',2000,412452,4.6),
+('Tabasco',2005,473121,4.2),
+('Tabasco',2010,567175,4.1),
+
+('Tamaulipas',1995,595839,4.2),
+('Tamaulipas',2000,682651,4.1),
+('Tamaulipas',2005,789118,3.8),
+('Tamaulipas',2010,901244,3.6),
+
+
+('Tlaxcala',1995,171821,5.1),
+('Tlaxcala',2000,194472,4.9),
+('Tlaxcala',2005,233881,4.6),
+('Tlaxcala',2010,274202,4.3),
+
+('Veracruz de Ignacio de la Llave',1995,1464139,4.6),
+('Veracruz de Ignacio de la Llave',2000,1605497,4.3),
+('Veracruz de Ignacio de la Llave',2005,1777972,4.1),
+('Veracruz de Ignacio de la Llave',2010,2014307,3.8),
+
+
+('Yucatán',1995,330155,4.7),
+('Yucatán',2000,373244,4.4),
+('Yucatán',2005,435381,4.2),
+('Yucatán',2010,507145,3.9),
+
+
+('Zacatecas',1995,273078,4.9),
+('Zacatecas',2000,299249,4.5),
+('Zacatecas',2005,325214,4.2),
+('Zacatecas',2010,376913,4.1);
